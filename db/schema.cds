@@ -25,6 +25,8 @@ entity Authors : cuid, managed {
 }
 
 entity Chapters : cuid, managed {
-        number : Integer;
     key book   : Association to Books; // normalerweise nutzt man hier key parent
+        number : Integer;
+        title  : String;
+        pages  : Integer;
 }
