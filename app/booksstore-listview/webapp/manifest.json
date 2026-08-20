@@ -7,13 +7,13 @@
     "applicationVersion": {
       "version": "0.0.1"
     },
-    "title": "Test",
+    "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.31.0",
-      "toolsId": "88e41387-7f2b-48c1-aa60-37ad0c6ef775"
+      "toolsId": "beaa5051-141b-49f1-85be-c3236b4a06d3"
     },
     "dataSources": {
       "mainService": {
@@ -116,8 +116,7 @@
                     "type": "ResponsiveTable"
                   }
                 }
-              },
-              "initialLoad": "Auto"
+              }
             }
           }
         },

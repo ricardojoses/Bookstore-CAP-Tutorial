@@ -17,6 +17,7 @@
     "app/*"
   ],
   "sapux": [
+    "app/booksstore-listview",
     "app/booksstore-listview"
   ]
 }

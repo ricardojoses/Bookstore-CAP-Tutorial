@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Thu Aug 20 2026 12:41:37 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Thu Aug 20 2026 13:31:18 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>SAP Fiori Application Generator|
 |**App Generator Version**<br>1.31.0|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -9,7 +9,7 @@
 |**Service Type**<br>Local CAP|
 |**Service URL**<br>http://localhost:4004/odata/v4/bookstore/|
 |**Module Name**<br>booksstore-listview|
-|**Application Title**<br>Bookstore View|
+|**Application Title**<br>Bookstore|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.151.0|
@@ -26,7 +26,7 @@ An SAP Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  To launch the generated app, start your CAP project:  and navigate to the following location in your browser:
 
-http://localhost:4004/booksstore-listview/webapp/index.html
+http://localhost:4004/booksstorelistview/index.html
 
 #### Pre-requisites:
 
