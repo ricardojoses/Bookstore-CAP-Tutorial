@@ -5,27 +5,22 @@ annotate service.Books with @(
         Data : [
             {
                 $Type : 'UI.DataField',
-                Label : 'title',
+                Label : 'Title',
                 Value : title,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'genre',
-                Value : genre,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'publishedAt',
+                Label : 'Published at',
                 Value : publishedAt,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'pages',
+                Label : 'Pages',
                 Value : pages,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'price',
+                Label : 'Price',
                 Value : price,
             },
         ],
@@ -36,6 +31,12 @@ annotate service.Books with @(
             ID : 'GeneratedFacet1',
             Label : 'General Information',
             Target : '@UI.FieldGroup#GeneratedGroup',
+        },
+        {
+            $Type : 'UI.ReferenceFacet',
+            Label : 'Administration Information',
+            ID : 'AdministrationInformation',
+            Target : '@UI.FieldGroup#AdministrationInformation',
         },
     ],
     UI.LineItem : [
@@ -76,10 +77,32 @@ annotate service.Books with @(
             $Type : 'UI.DataField',
             Value : genre,
         },
+        TypeImageUrl : 'sap-icon://learning-assistant',
     },
     UI.SelectionFields : [
         price,
     ],
+    UI.FieldGroup #AdministrationInformation : {
+        $Type : 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type : 'UI.DataField',
+                Value : createdAt,
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : createdBy,
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : modifiedAt,
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : modifiedBy,
+            },
+        ],
+    },
 );
 
 annotate service.Books with {
